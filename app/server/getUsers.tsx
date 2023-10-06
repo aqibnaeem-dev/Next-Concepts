@@ -14,7 +14,7 @@ interface Post {
 
 // Get fake data from an API
 async function loadPosts() {
-  const res = await fetch("https://jsonplaceholder.typicode.com/posts/${2}");
+  const res = await fetch("https://jsonplaceholder.typicode.com/posts/");
   return res.json();
 }
 
